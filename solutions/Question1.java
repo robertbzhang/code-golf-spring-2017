@@ -4,8 +4,8 @@ import java.util.*;
 public class Question1 {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner scan = new Scanner(new File("src/code-golf-spring-2017/inputs/1.txt"));
-		PrintStream output = new PrintStream(new File("src/code-golf-spring-2017/answers/1.txt"));
+		Scanner scan = new Scanner(new File("../inputs/1.txt"));
+		PrintStream output = new PrintStream(new File("../answers/1.txt"));
 		while(scan.hasNextInt()) {
 			output.println(numPrimes(scan.nextInt()));
 		}

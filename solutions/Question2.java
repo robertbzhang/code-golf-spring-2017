@@ -4,8 +4,8 @@ import java.util.*;
 public class Question2 {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner scan = new Scanner(new File("src/code-golf-spring-2017/inputs/2.txt"));
-		PrintStream output = new PrintStream(new File("src/code-golf-spring-2017/answers/2.txt"));
+		Scanner scan = new Scanner(new File("../inputs/2.txt"));
+		PrintStream output = new PrintStream(new File("../answers/2.txt"));
 		while(scan.hasNext()) {
 			output.println(prefixResult(scan.next()));
 		}

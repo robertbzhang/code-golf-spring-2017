@@ -4,8 +4,8 @@ import java.util.*;
 public class Question3 {
 
 	public static void main(String[] args)  throws FileNotFoundException {
-		Scanner scan = new Scanner(new File("src/code-golf-spring-2017/inputs/3.txt"));
-		PrintStream output = new PrintStream(new File("src/code-golf-spring-2017/answers/3.txt"));
+		Scanner scan = new Scanner(new File("../inputs/3.txt"));
+		PrintStream output = new PrintStream(new File("../answers/3.txt"));
 		ArrayList<String> words = new ArrayList<String>();
 		ArrayList<String> words2 = new ArrayList<String>();
 		ArrayList<String> outputWords = new ArrayList<String>();
